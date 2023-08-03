@@ -18,7 +18,7 @@ use std::cmp::Ordering;
 ///
 /// 512 bytes was arbitrarily chosen because it is long enough for return values up to 16 words in
 /// size.
-static DUMMY_CALL_OUTPUT: [u8; 1024] = [0u8; 1024];
+static DUMMY_CALL_OUTPUT: [u8; 4096] = [0u8; 4096];
 
 /// Same reasoning as [DUMMY_CALL_OUTPUT], but for creates.
 static DUMMY_CREATE_ADDRESS: Address =
